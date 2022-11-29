@@ -8,7 +8,7 @@ body{
         
 }
 
-#contenedor{
+.contenedor{
     margin: 0 auto;
     border-radius: 5em;
     background-color: beige;
