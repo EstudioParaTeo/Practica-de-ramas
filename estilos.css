@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 5em;
+    background-color: beige;
+        
+}
+
+#contenedor{
+    margin: 0 auto;
+    border-radius: 5em;
+    background-color: beige;
+    
+}
+
+#titulo{
+    display: flex;
+    justify-content: start;
+    font-size: large;
+    font-weight: 100;
+    letter-spacing: 5px;
+    color: blueviolet;
+    box-shadow: 10px 10px 10px 10px;
+    border-color: aliceblue;
+}
+
+#Texto{
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
