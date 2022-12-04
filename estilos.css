@@ -17,7 +17,7 @@ body{
 
 #titulo{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     font-size: large;
     font-weight: 100;
     letter-spacing: 5px;
