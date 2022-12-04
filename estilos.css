@@ -34,3 +34,10 @@ body{
     display: flex;
     justify-content: center;
 }
+
+
+.contenedorFooter{
+  background-color: rgb(98, 17, 173);
+  color: aliceblue;
+  padding: 10px 20px;
+}
