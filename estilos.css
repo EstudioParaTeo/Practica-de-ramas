@@ -41,3 +41,10 @@ body{
   color: aliceblue;
   padding: 10px 20px;
 }
+
+#CarruselPalabras{
+    height: 100vmax;
+    width: 50vmax;
+    position: absolute;
+    left: -50%;
+}
