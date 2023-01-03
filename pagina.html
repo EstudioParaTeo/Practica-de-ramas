@@ -5,8 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .bordes{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .ancho{
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    
+    <table class="bordes ancho">
+        <tr>
+            <td colspan="2">
+                <table class="bordes">
+                    <tr class="bordes">
+                        <td colspan="2" style="display: flex; justify-content: center;">Digite su fecha</td>
+                    </tr>
+                    
+                    <tr class="bordes">
+                        <td class="bordes">digite su nombre</td>
+                        <td>digite su apellido</td>
+                    </tr>
+                </table>
+            </td>
+
+            <td class="bordes" style="display: flex; float: right;">
+                <table class="bordes">
+                    <tr class="bordes">
+                        <td colspan="2" style="display: flex; justify-content: center;">Digite su fecha</td>
+                    </tr>
+                    
+                    <tr class="bordes">
+                        <td class="bordes">digite su nombre</td>
+                        <td>digite su apellido</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+    </table>
 </body>
 </html>
